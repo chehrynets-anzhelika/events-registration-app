@@ -1,0 +1,29 @@
+.footer {
+    background-color: #D8DBEB;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    flex-shrink: 0;
+}
+.footerWrap {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navList {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 1rem;
+}
+
+.navLink {
+    display: inline-block;
+    height: 25px;
+    cursor: pointer;
+    
+}
+
+.icon {
+    margin: 0 2px -2px;
+}

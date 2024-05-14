@@ -1,0 +1,8 @@
+.wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.label {
+    cursor: pointer;
+}

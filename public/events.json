@@ -1,0 +1,124 @@
+{
+    "events": [
+      {
+        "title": "React Conference 2024",
+        "description": "Join us for a two-day conference on all things React. Learn from industry experts and network with other developers.",
+        "event_date": "2024-06-15",
+        "organizer": "React Community"
+      },
+      {
+        "title": "JavaScript Workshop",
+        "description": "A hands-on workshop for JavaScript beginners. Bring your laptop and be ready to code!",
+        "event_date": "2024-07-01",
+        "organizer": "Code Academy"
+      },
+      {
+        "title": "CSS Grid Webinar",
+        "description": "Learn how to create complex layouts easily with CSS Grid in this online webinar.",
+        "event_date": "2024-07-20",
+        "organizer": "Web Design School"
+      },
+      {
+        "title": "HTML5 Seminar",
+        "description": "Discover the latest features of HTML5 and how to leverage them for your web projects.",
+        "event_date": "2024-08-05",
+        "organizer": "Web Standards Organization"
+      },
+      {
+        "title": "Vue.js Meetup",
+        "description": "Meet other Vue.js enthusiasts, share your projects, and learn about the latest libraries and plugins.",
+        "event_date": "2024-08-15",
+        "organizer": "Vue.js Community"
+      },
+      {
+        "title": "Angular Bootcamp",
+        "description": "A week-long bootcamp for Angular developers. Get your Angular skills to the next level!",
+        "event_date": "2024-09-01",
+        "organizer": "Angular University"
+      },
+      {
+        "title": "Node.js Hackathon",
+        "description": "Join our hackathon and build amazing applications with Node.js. Prizes for the best projects!",
+        "event_date": "2024-09-20",
+        "organizer": "Node.js Foundation"
+      },
+      {
+        "title": "Web Accessibility Workshop",
+        "description": "Learn how to make your websites accessible to everyone. A must-attend for all web developers!",
+        "event_date": "2024-10-05",
+        "organizer": "Web For All Initiative"
+      },
+      {
+        "title": "GraphQL Seminar",
+        "description": "Discover the benefits of GraphQL and how to use it in your projects in this informative seminar.",
+        "event_date": "2024-10-15",
+        "organizer": "API Academy"
+      },
+      {
+        "title": "Deno Conference",
+        "description": "Join us for the first conference dedicated to Deno, the JavaScript runtime built for the future.",
+        "event_date": "2024-11-01",
+        "organizer": "Deno Community"
+      },
+      {
+        "title": "Web Performance Webinar",
+        "description": "Learn how to make your websites faster and provide a better user experience in this online webinar.",
+        "event_date": "2024-11-20",
+        "organizer": "Web Speed Initiative"
+      },
+      {
+        "title": "TypeScript Workshop",
+        "description": "A hands-on workshop for TypeScript beginners. Learn the benefits of static typing in JavaScript!",
+        "event_date": "2024-12-01",
+        "organizer": "TypeScript Community"
+      },
+      {
+        "title": "Progressive Web Apps Seminar",
+        "description": "Discover how to build Progressive Web Apps that work offline and provide a native app-like experience.",
+        "event_date": "2025-01-05",
+        "organizer": "PWA School"
+      },
+      {
+        "title": "Svelte Meetup",
+        "description": "Meet other Svelte enthusiasts, share your projects, and learn about the latest developments in Svelte.",
+        "event_date": "2025-01-15",
+        "organizer": "Svelte Community"
+      },
+      {
+        "title": "WebAssembly Bootcamp",
+        "description": "A week-long bootcamp for WebAssembly developers. Learn how to leverage WebAssembly for high-performance web apps!",
+        "event_date": "2025-02-01",
+        "organizer": "WebAssembly University"
+      },
+      {
+        "title": "Next.js Hackathon",
+        "description": "Join our hackathon and build amazing applications with Next.js. Prizes for the best projects!",
+        "event_date": "2025-02-20",
+        "organizer": "Next.js Foundation"
+      },
+      {
+        "title": "Web Security Workshop",
+        "description": "Learn how to secure your websites and protect your users in this essential workshop for web developers.",
+        "event_date": "2025-03-05",
+        "organizer": "Web Security Initiative"
+      },
+      {
+        "title": "REST API Seminar",
+        "description": "Discover the principles of REST and how to design effective REST APIs for your projects.",
+        "event_date": "2025-03-15",
+        "organizer": "API Academy"
+      },
+      {
+        "title": "Webpack Conference",
+        "description": "Join us for a conference dedicated to Webpack, the popular module bundler for JavaScript.",
+        "event_date": "2025-04-01",
+        "organizer": "Webpack Community"
+      },
+      {
+        "title": "JAMstack Meetup",
+        "description": "Meet other JAMstack enthusiasts, share your projects, and learn about the latest trends in JAMstack development.",
+        "event_date": "2025-04-15",
+        "organizer": "JAMstack Community"
+      }
+    ]
+  }
