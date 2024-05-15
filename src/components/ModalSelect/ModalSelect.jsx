@@ -1,7 +1,8 @@
 import React from 'react';
 import st from "./modalSelect.module.css";
+import stErr from "../ModalInput/modalInput.module.css";
 
-const ModalSelect = ({onChange}) => {
+const ModalSelect = ({onChange, error}) => {
     return (
         <div>
         <p>Where did you hear about this event?</p>
@@ -19,6 +20,7 @@ const ModalSelect = ({onChange}) => {
             Found myself
         </label> 
         </div>
+        {error && <p className={stErr.error}>{error}</p>}
         
         </div>
     );
