@@ -1,0 +1,26 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.input {
+    display: block;
+    padding: 8px 26px;
+    
+}
+.container {
+    display: inline-block;
+    position: relative;
+}
+.container::before {
+    content: url("/public/images/search.svg");
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+}

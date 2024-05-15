@@ -3,9 +3,9 @@ import PaginatedCardList from '../components/PaginatedCardList/PaginatedCardList
 
 const BoardPage = () => {
     return (
-        <div>
+        <>
             <PaginatedCardList />
-        </div>
+        </>
     );
 }
 
