@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Events Registration App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About this app
 
-## Available Scripts
+This project is a test task. This is a web application for event registration. The application has three pages:
 
-In the project directory, you can run:
+☑️ **Board** - the main page where the user lands when launching the application. It contains a list of events in the form of cards. Each event contains:
+* title;
+* description;
+* date;
+* organizer;
+* «**Registration**» and «**View**» buttons;
 
-### `npm start`
+------
+☑️ **Registration** - the page where the user lands by clicking on the Registration button. A modal window appears on the page where the user must enter their data:
+* Full name;
+* Email;
+* Date of birth;
+* Choose the source from where they learned about the event.
 
-Runs the app in the development mode.\
+All fields are mandatory. After the user clicks «**Save**», their data is stored in the <u>Firebase</u> database.
+
+-----
+
+☑️ **Participants** - the page where the user goes by clicking on the «**View**» button in the event card. On this page, user can see all the participants who have registered for this event. If there are no users, there will be a message.
+
+## How to run the application
+
+>To run this project, it is necessary that **Node.js** and **Git** are installed on your computer. 
+
+1. Clone this repository to your local computer. 
+2. Open the project in your IDE, then open the terminal.
+3. Run the command 
+   
+
+### `npm i`
+
+4. After installing all dependencies, in the project directory, you can run:
+
+  ### `npm start`
+
+5. Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+![Static Badge](https://img.shields.io/badge/react-191970?style=for-the-badge&logo=react) ![Static Badge](https://img.shields.io/badge/redux%20toolkit-808000?style=for-the-badge&logo=redux) ![Static Badge](https://img.shields.io/badge/css-4682B4?style=for-the-badge&logo=css3) ![Static Badge](https://img.shields.io/badge/firebase-9932CC?style=for-the-badge&logo=firebase) ![Static Badge](https://img.shields.io/badge/react%20router-66CDAA?style=for-the-badge&logo=react%20router) ![Static Badge](https://img.shields.io/badge/vercel-8B4513?style=for-the-badge&logo=vercel)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Visit the app by following this link (link will be added later)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
