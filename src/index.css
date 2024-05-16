@@ -46,3 +46,8 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+a:active, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
