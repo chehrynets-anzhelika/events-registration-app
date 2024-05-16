@@ -27,7 +27,7 @@ const Sort = ({ click, sortValue }) => {
         }}>
             <div className={st.wrap}>
                 <div className={st.sortContainer}>
-                    <button onClick={() => setOpen(!open)} className={stBtn.btn}>Sort</button>
+                    <button onClick={() => setOpen(!open)} className={`${stBtn.btn} ${st.btnSort}`}>Sort</button>
                     {open && <ul onClick={click} className={st.list}>
                         {
                             sortedItems.map(item => (

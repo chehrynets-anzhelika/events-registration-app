@@ -4,7 +4,7 @@
 
 This project is a test task. This is a web application for event registration. The application has three pages:
 
-☑️ **Board** - the main page where the user lands when launching the application. It contains a list of events in the form of cards. Each event contains:
+☑️ **Board** - the main page where the user lands when launching the application. Contains a list of events that are loaded from **Firebase Realtime Database** in the form of cards. Each event contains:
 * title;
 * description;
 * date;
@@ -18,11 +18,19 @@ This project is a test task. This is a web application for event registration. T
 * Date of birth;
 * Choose the source from where they learned about the event.
 
-All fields are mandatory. After the user clicks «**Save**», their data is stored in the <u>Firebase</u> database.
+All fields are mandatory. After the user clicks «**Save**», their data is stored in the **Firebase Realtime Database** database.
 
 -----
 
 ☑️ **Participants** - the page where the user goes by clicking on the «**View**» button in the event card. On this page, user can see all the participants who have registered for this event. If there are no users, there will be a message.
+
+The technical task had 3 levels. This project is at the Middle level. Additionally, the following functionality was added:
+
+1. <u>Events board page</u>: added ability to sort events by: title, event date, organizer.
+2. <u>Event registration page</u>: added form validation.
+3. <u>Event participants page</u>: added ability to search participants by full name, email.
+
+>The layout is designed for desktops with a minimum screen width of 1200px.
 
 ## How to run the application
 
@@ -35,13 +43,36 @@ All fields are mandatory. After the user clicks «**Save**», their data is stor
 
 ### `npm i`
 
-4. After installing all dependencies, in the project directory, you can run:
+4. Follow the instructions in **Setting Environment Variables**.
+5. After installing all dependencies, in the project directory, you can run:
 
   ### `npm start`
 
-5. Runs the app in the development mode.\
+6. Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## Setting Environment Variables
+
+This project uses environment variables that are stored in the `.env` file. This file is not included in the repository for security reasons.
+
+To set environment variables:
+
+1. Create a `.env` file in the root directory of the project.
+2. Open the `.env` file in a text editor.
+3. Add environment variables in the format `KEY=VALUE`, where `KEY` is the name of the variable and `VALUE` is the value of the variable. Each key-value pair must be on a new line.
+4. Example contents of a `.env` file:
+
+- REACT_APP_API_KEY = "value"
+- REACT_APP_AUTH_DOMAIN = "value"
+- REACT_APP_PROJECT_ID = "value"
+- REACT_APP_STORAGE_BUCKET = "value"
+- REACT_APP_MESSAGING_SENDER_ID = "value"
+- REACT_APP_APP_ID = "value"
+- REACT_APP_DATABASE_URL = "value" 
+
+Please ensure that you have set all required environment variables correctly before running the project.
+
+Please note that you will need to replace KEY and VALUE with the actual keys and values ​​that your project requires.
 
 ## Technologies
 
@@ -50,7 +81,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Deployment
 
-Visit the app by following this link (link will be added later)
+Visit the app by following this link https://events-registration-app-jet.vercel.app/
 
 
 
