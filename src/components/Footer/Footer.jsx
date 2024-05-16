@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className={st.footer}>
             <div className='container'>
                 <div className={st.footerWrap}>
-                    <p>© 2024 Made with <img src="images/heart.svg" width={15} height={15} className={st.icon} />in Ukraine</p>
+                    <p>© 2024 Made with <img src="images/heart.svg" width={15} height={15} className={st.icon}/> in Ukraine</p>
                     <nav >
                         <ul className={st.navList}>
                             <li className={st.navItem}>
