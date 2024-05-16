@@ -5,7 +5,7 @@ const Search = ({ users, setFilteredUsers, searchValue, setSearchValue }) => {
 
 
     useEffect(() => {
-            let search = users.filter(user => user.fullName.toLowerCase().includes(searchValue));
+            let search = users.filter(user => user.fullName.toLowerCase().includes(searchValue) || user.email.toLowerCase().includes(searchValue));
             search.length ? setFilteredUsers(search) : setFilteredUsers([]);
     }, [searchValue])
 
